@@ -13,7 +13,11 @@ private:
 public:
 	Point(int x, int y);
 	Point();
-	int getX();
-	int getY();
+	int getX() {
+		return x;
+	}
+	int getY() {
+		return y;
+	}
 	void print();
 };
